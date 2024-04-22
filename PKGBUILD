@@ -8,7 +8,7 @@ pkgrel=8
 pkgdesc='Python binding to the Networking and Cryptography (NaCl) library'
 url='https://pypi.python.org/pypi/PyNaCl'
 arch=('x86_64')
-license=('Apache')
+license=('Apache-2.0')
 
 depends=('libsodium' 'python' 'python-six' 'python-cffi')
 makedepends=('python-setuptools' 'python-pycparser' 'python-wheel')
