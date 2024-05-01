@@ -10,8 +10,8 @@ url='https://pypi.python.org/pypi/PyNaCl'
 arch=('x86_64')
 license=('Apache-2.0')
 
-depends=('libsodium' 'python' 'python-cffi')
-makedepends=('python-setuptools' 'python-pycparser' 'python-wheel' 'python-build' 'python-installer' 'python-wheel')
+depends=('glibc' 'libsodium' 'python' 'python-cffi')
+makedepends=('python-build' 'python-installer' 'python-pycparser' 'python-setuptools' 'python-wheel')
 checkdepends=('python-pytest' 'python-hypothesis')
 
 source=("https://pypi.org/packages/source/P/PyNaCl/PyNaCl-$pkgver.tar.gz")
