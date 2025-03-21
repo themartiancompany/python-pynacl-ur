@@ -88,7 +88,7 @@ checkdepends=(
 _pypa="https://pypi.org/packages/source"
 _tarname="${_Pkg}-${pkgver}"
 source=(
-  "${_pypa}/${_Pkg::1}/${_Pkg}/${_tarname}tar.gz"
+  "${_pypa}/${_Pkg::1}/${_Pkg}/${_tarname}.tar.gz"
 )
 sha512sums=(
   'cea3e4556432588630382abae6debf9203c7f55da286509da547a7921e4dbad98c915743625c68e5f7187fcaf6d4cdaf7ed2ed3ba60bd4c10ae6e3f88608dc65'
