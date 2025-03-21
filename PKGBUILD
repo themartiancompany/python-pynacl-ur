@@ -75,6 +75,7 @@ depends=(
   "${_py}-cffi"
 )
 makedepends=(
+  'libsodium'
   "${_py}-build"
   "${_py}-installer"
   "${_py}-pycparser"
